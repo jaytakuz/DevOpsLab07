@@ -2,7 +2,7 @@ name: deploy on push production branch
 on:
   push:
     branches:
-      - prod
+      - Prod
 jobs:
   deploy-app:
     runs-on: ubuntu-latest
